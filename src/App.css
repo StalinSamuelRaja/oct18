@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(0, 129, 188);
+}
+.app{
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-left: 200px;
+}
+.card{
+   width: 300px;
+   height: 500px;
+   border : 1px solid;
+   border-color: aliceblue;
+   border-radius : 5px;
+   justify-content: stretch;
+   background-color: white;
+   padding: 10px;
+}
+
+.head{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+  padding: 0px; 
+  font-weight: 500;
+}
+h1{
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px; 
+  margin-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+ul {
+  list-style: none;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px; /* Adjust the value to control the spacing between ul elements */
+}
+
+.opac{
+  opacity: 0.5;
+}
+
+li{
+  padding: 4px;
+  margin-bottom: 0px;
+}
+.wrong{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.tick-symbol {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.cross-symbol {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.btn{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+}
+.butn{
+  color: #ffffff;
+  background-color: rgb(42, 168, 214);
+  border-radius: 20px;
+  width: 290px;
+} 
