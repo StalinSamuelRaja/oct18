@@ -1,56 +1,62 @@
-body{
+body {
   background-color: rgb(0, 129, 188);
 }
-.app{
+
+.app {
   display: flex;
   flex-direction: row;
   gap: 5rem;
   margin-left: 200px;
 }
-.card{
-   width: 300px;
-   height: 500px;
-   border : 1px solid;
-   border-color: aliceblue;
-   border-radius : 5px;
-   justify-content: stretch;
-   background-color: white;
-   padding: 10px;
+
+.card {
+  width: 300px;
+  height: 500px;
+  border: 1px solid;
+  border-color: aliceblue;
+  border-radius: 5px;
+  justify-content: stretch;
+  background-color: white;
+  padding: 10px;
 }
 
-.head{
+.head {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p{
-  padding: 0px; 
+
+p {
+  padding: 0px;
   font-weight: 500;
 }
-h1{
+
+h1 {
   padding-top: 0px;
   padding-left: 5px;
-  padding-right: 5px; 
+  padding-right: 5px;
   margin-left: 1rem;
   margin-right: 2rem;
   margin-top: 0rem;
   margin-bottom: 1rem;
 }
+
 ul {
   list-style: none;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 20px; /* Adjust the value to control the spacing between ul elements */
+  margin-bottom: 20px;
 }
 
-.opac{
+.opac {
   opacity: 0.5;
 }
 
-li{
+li {
   padding: 4px;
   margin-bottom: 0px;
 }
-.wrong{
+
+.wrong {
   padding-top: 0px;
   margin-top: 0px;
 }
@@ -65,14 +71,28 @@ li{
   margin-right: 5px;
 }
 
-.btn{
+.btn {
   display: flex;
   flex-wrap: wrap;
- justify-content: center;
+  justify-content: center;
 }
-.butn{
+
+.butn {
   color: #ffffff;
   background-color: rgb(42, 168, 214);
   border-radius: 20px;
   width: 290px;
-} 
+}
+
+/* Media query for screens with a max width of 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    margin-left: 0; /* Remove the left margin on smaller screens */
+  }
+
+  .card {
+    width: 100%; /* Expand the card to the full width of the screen */
+    margin: 10px;
+  }
+}
